@@ -1,36 +1,28 @@
 # last-night
 
-FIXME: description
+Uses lists to randomly create sentences.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Clone.
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar last-night-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
+    $ lein run
 
 ## Examples
 
-...
+    => Some dull crackheads drank plenty of alchohol.
+    => A group of ugly giraffes swam to shore.
+    => A hippie cop got really fucked up.
 
 ### Bugs
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+None known :)
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 Michael Auderer
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
