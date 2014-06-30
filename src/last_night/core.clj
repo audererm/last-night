@@ -2,27 +2,27 @@
   (:gen-class))
 
 ; word bank
-(def single-fixes (list "The" "A" "One"))
-(def plural-fixes (list "The" "Some" "A group of"))
-(def adjectives (list "emo" "hairy" "old" "young" "cool" "hip" 
+(def single-fixes ["The" "A" "One"])
+(def plural-fixes ["The" "Some" "A group of"])
+(def adjectives ["emo" "hairy" "old" "young" "cool" "hip" 
                       "hot" "sexy" "ugly" "dull" "dashing" 
-                      "radical" "hipster" "famous"))
-(def single-nouns (list "man" "woman" "dog" "boy" "girl"
+                      "radical" "hipster" "famous"])
+(def single-nouns ["man" "woman" "dog" "boy" "girl"
                         "gangster" "nigga" "scientist" "cop"
                         "lady" "stoner" "crackhead" "hippie"
-                        "priest" "wizard" "giraffe" "cat"))
-(def plural-nouns (list "men" "women" "dogs" "boys" "girls"
+                        "priest" "wizard" "giraffe" "cat"])
+(def plural-nouns ["men" "women" "dogs" "boys" "girls"
                         "gangsters" "niggas" "scientists" 
                         "cops" "ladies" "stoners" "crackheads"
                         "hippies" "priests" "wizards"
-                        "giraffes" "cats"))
-(def verbs (list "walked home" "ran away" "ran around" 
+                        "giraffes" "cats"])
+(def verbs ["walked home" "ran away" "ran around" 
                  "swam to shore" "swam in the pool" 
                  "danced all night" "got really fucked up"
                  "got mildly stoned" "died a gruesome death"
                  "partied 'til the sun came up"
                  "did absolutely nothing"
-              	 "drank plenty of alchohol"))
+              	 "drank plenty of alchohol"])
 
 ; choose a random word from a list
 (defn word
@@ -44,6 +44,6 @@
          (word plural-nouns) " " (word verbs) ".")))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "Prints a random sentence."
   [& args]
   (println (create-sentence)))
