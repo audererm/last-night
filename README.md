@@ -4,8 +4,8 @@ Uses vectors to randomly create sentences.
 
 ## Installation
 
-Clone.
-
+    $ git clone https://github.com/audererm/last-night/
+    
 ## Usage
 
     $ lein run
