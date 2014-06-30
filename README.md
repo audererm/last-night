@@ -1,6 +1,6 @@
 # last-night
 
-Uses lists to randomly create sentences.
+Uses vectors to randomly create sentences.
 
 ## Installation
 
